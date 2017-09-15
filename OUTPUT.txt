@@ -1,0 +1,14 @@
+[BE@localhost 4113]$ gedit CL1-B9.py
+[BE@localhost 4113]$ touch doc1.txt doc2.txt doc3.txt doc4.txt doc5.txt doc6.txt
+[BE@localhost 4113]$ touch t1.txt t2.txt
+[BE@localhost 4113]$ python CL1-B9.py
+Enter test file: t1.txt
+[['doc1.txt', 'war', 0.019], ['doc2.txt', 'war', 0.092], ['doc3.txt', 'war', 0.015], ['doc4.txt', 'games', 0.119], ['doc5.txt', 'games', 0.28], ['doc6.txt', 'games', 1.0]]
+Counter({'games': 3})
+Class of test file:  games
+[BE@localhost 4113]$ python CL1-B9.py
+Enter test file: t2.txt
+[['doc1.txt', 'war', 0.212], ['doc2.txt', 'war', 0.279], ['doc3.txt', 'war', 0.327], ['doc4.txt', 'games', 0.076], ['doc5.txt', 'games', 0.034], ['doc6.txt', 'games', 0.028]]
+Counter({'war': 3})
+Class of test file:  war
+[BE@localhost 4113]$ 
